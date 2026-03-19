@@ -1,0 +1,301 @@
+body{
+    background-color: black;
+    font-family:Space Grotesk;
+    overflow-x: hidden;
+
+}
+.header p{
+    color:white;
+    font-family: Space grotesk;
+    margin:0 auto;
+    font-size:3vw;
+    font-weight: 500;
+}
+.header {
+    display:flex;
+    margin-top:3vw;
+    justify-content: center;
+    align-items: center;
+
+}
+.header img{
+    height:4vw;
+    margin-left: 10vw;
+}
+.header p span {
+    color:#FF7300
+}
+.imagesR1{
+    display:flex;
+    margin-top: 5vw;
+    margin-left:7vw;
+
+}
+.imagesR1 img{
+    height:25vw;
+    margin-left:4vw;
+
+}
+.imagesR1 img:first-child{
+    margin-left:0;
+}
+.project4{
+    height:35vw;
+    object-fit: cover;
+    display: block;
+    margin:0 auto;
+    margin-top:3vw;
+
+}
+.bgimg{
+    position: absolute;
+    top:28vw;
+    left:-1vw;
+    width:98vw;
+    z-index:-1000;
+}
+.projectDesc .pimg{
+    height:35vw;
+    margin-top: 5vw;
+    margin-left:5vw;
+    transition: all ease 0.5s;
+
+}
+.projectDesc .pimg:hover{
+    transform: scale(120%);
+}
+.projectDesc{
+    margin-top:15vw
+}
+.projectDesc p{
+    color:white;
+    width:35vw;
+    position: relative;
+    bottom:-5.5vw;
+    float:right;
+    right:8vw;
+    font-weight: 500;
+    font-size:2.5vw
+
+}
+.projectDesc .desc{
+    margin-top:-31vw;
+    font-weight:300;
+    font-size:2vw;
+}
+.projectDesc .direction1{
+    width:8vw;
+    position: absolute;
+    top:115vw;
+    left:42vw;
+    z-index:-1;
+
+
+}
+.projectDesc .direction2{
+    width:8vw;
+    position: absolute;
+    top:168vw;
+    left:42vw;
+    z-index:-1;
+
+
+}
+.projectDesc .direction3{
+    width:8vw;
+    position: absolute;
+    top:222vw;
+    left:42vw;
+    z-index:-1;
+
+
+}
+a{
+    text-decoration: none;
+}
+ button{
+
+    background: linear-gradient(90deg,#FF7300, #000000  70%);
+    color:white;
+    border:none;
+    height:4vw;
+    font-family:poppins;
+    font-size:1.7vw;
+    display: flex;
+    border-radius: 5px;
+    display: block;
+    margin:0 auto;
+    margin-left:53vw;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    margin-top: -6vw;
+
+
+
+
+}
+button img, .buttonmb+img{
+    width:3vw;
+    margin-left:1.5vw;
+
+}
+
+.projectDesc span{
+    color:#FF7300;
+}
+.dproject4 .product{
+        height:35vw;
+    object-fit: cover;
+    display: block;
+    margin:0 auto;
+    margin-top:15vw;
+}
+
+.linelink{
+    height:20vw;
+    position: relative;
+    left:30vw;
+    top:2vw;
+
+}
+.p4text1, .p4text{
+    color:white;
+}
+.p4text1{
+        color:white;
+    width:35vw;
+    position: relative;
+    bottom:-5.5vw;
+    font-weight: 500;
+    font-size:2.5vw;
+    top:-20vw;
+    left:55vw;
+}
+.p4text{
+    font-weight:300;
+    font-size:2vw;
+    width:35vw;
+    position: relative;
+    left:55vw;
+    top:-19vw;
+}
+.p4text1 span{
+    color:#FF7300
+}
+.lastbut{
+    margin-top: -18vw;
+    margin-left:2vw;
+}
+.mobile{
+    display: none;
+}
+.lastmb{
+    display: none;
+}
+@media (max-width:550px)
+{
+
+    .direction, .direction1, .direction2, .direction3, .buttondsk, .pimg, .project4, .imagesR1, .projectDesc span,
+     .projectDesc p, .linelink, .p4text, .p4text1, .dproject4, .lastbut{
+          display:none;
+    }
+    body{
+        margin:0;
+        height:100vh;
+        padding:0;
+    }
+    .header p{
+        font-size: 4vw;
+    }
+    .mobile{
+        display: block;
+    }
+    .mobile img{
+        height:70vw;
+        margin-left:13vw;
+
+    }
+    .mobile img:first-child{
+        margin-top: 10vw;
+    }
+    .arrmb{
+        width:13vw;
+        transform:rotate(90deg) ;
+        position: relative;
+        left:28vw;
+        top:-34vw;
+        z-index: -1;
+
+    }
+    .lastmb{
+        width:85vw;
+        display: block;
+        position: relative;
+        left:-7vw;
+        margin-bottom: 0;
+        top:-170vw
+
+
+    }
+    .mobile p{
+        color:white;
+        position: relative;
+        top:-65vw;
+        font-size: 4vw;
+        text-align: center;
+    }
+    span{
+        color:#FF7300;
+    }
+    .descmb{
+        font-size: 1vw;
+        width:65vw;
+        margin-left:14vw;
+        margin-bottom:0;
+    }
+    .mobile2{
+        position: relative;
+        top:-50vw;
+    }
+    .imagedesc{
+        margin-top: -10vw;
+    }
+    .imagedesc2{
+       position: relative;
+       top:-60vw
+    }
+    .mobile3{
+       position: relative;
+       top:-110vw
+    }
+    .imagedesc3{
+        position: relative;
+        top:-118vw
+    }
+    button{
+        background-color: white;
+    }
+    .arrowmb{
+        position: relative;
+        top:-4.9vw;
+        left:-4vw;
+    }
+    .mbbtn3, .mbbtn2{
+        position: relative;
+        top:-45vw;
+        transform: scale(150%);
+        left:-15vw;
+        width:29vw;
+        display: flex;
+    }
+    .mbbtn2{
+        top:-30vw
+    }
+    .lastmbdesc{
+        position: relative;
+        top:-175vw;
+    }
+
+  
+}
